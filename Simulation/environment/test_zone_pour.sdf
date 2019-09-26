@@ -1,0 +1,58 @@
+<?xml version="1.0" ?>
+<sdf version="1.4">
+  <world name="default">
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+    <include>
+      <uri>model://sun</uri>
+    </include>
+    <include>
+      <uri>model://test_zone</uri>
+    </include>
+<!--
+    <include>
+      <uri>model://cafe_table</uri>
+      <name>table2</name>
+      <pose>-3 5 0 0 0 1.57</pose>
+    </include>
+-->
+
+    <!--use the following code to add cup-->
+<!--
+    <include>
+      <uri>model://cup_blue</uri>
+      <name>cup1</name>
+      <pose>4.05 3 0 0 0 1.57</pose>
+    </include>
+    <include>
+      <uri>model://cup_blue</uri>
+      <name>cup2</name>
+      <pose>4.05 3 0 0 0 1.57</pose>
+    </include>
+-->
+
+    <include>
+      <uri>model://cafe_table</uri>
+      <name>table1</name>
+      <pose>4.05 3 0 0 0 1.57</pose>
+    </include>
+    <include>
+      <name>cup1</name>
+      <uri>model://cup_blue</uri>
+      <pose>3.65 3.15 0.83 0 0 3.14</pose>
+    </include>
+    <include>
+      <name>cup2</name>
+      <uri>model://cup_blue</uri>
+      <pose>3.65 2.92 0.83 0 0 3.14</pose>
+    </include>
+<!--
+    <include>
+      <uri>model://demo_cube</uri>
+      <pose>3.8 3.15 0.83 0 0 0</pose>
+    </include>
+-->
+
+  </world>
+</sdf>
